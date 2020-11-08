@@ -318,3 +318,25 @@ Nov 08, 2020 7:35:46 AM org.apache.coyote.AbstractProtocol start
 INFO: Starting ProtocolHandler ["ajp-bio-8009"]
 Nov 08, 2020 7:35:46 AM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 680 ms
+Nov 08, 2020 8:18:37 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/centos/project/apache-tomcat-7.0.94/webapps/app.war
+Nov 08, 2020 8:18:37 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/home/centos/project/apache-tomcat-7.0.94/webapps/app/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 08, 2020 8:18:37 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/centos/project/apache-tomcat-7.0.94/webapps/app.war has finished in 87 ms
+Nov 08, 2020 8:29:31 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/app]
+Nov 08, 2020 8:29:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/centos/project/apache-tomcat-7.0.94/webapps/app.war
+Nov 08, 2020 8:29:31 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/home/centos/project/apache-tomcat-7.0.94/webapps/app/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 08, 2020 8:29:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/centos/project/apache-tomcat-7.0.94/webapps/app.war has finished in 48 ms
+Nov 08, 2020 8:29:31 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/app]
+Nov 08, 2020 8:29:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/centos/project/apache-tomcat-7.0.94/webapps/app.war
+Nov 08, 2020 8:29:31 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/home/centos/project/apache-tomcat-7.0.94/webapps/app/WEB-INF/lib/servlet-api-2.5.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Nov 08, 2020 8:29:31 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/centos/project/apache-tomcat-7.0.94/webapps/app.war has finished in 38 ms
